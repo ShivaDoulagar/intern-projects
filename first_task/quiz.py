@@ -66,12 +66,12 @@ class Quiz:
 
 if __name__ == "__main__":
     questions = [
-    [1,'who is the marval god','iron man','logan','Deadpool','Me',4],
-    [2,'who is the marval god','iron man','logan','Deadpool','Me',4],
-    [3,'who is the marval god','iron man','logan','Deadpool','Me',4],
-    [4,'who is the marval god','iron man','logan','Deadpool','Me',4],
-    [5,'who is the marval god','iron man','logan','Deadpool','Me',4],
-    [6,'who is the marval god','iron man','logan','Deadpool','Me',4]
+    [1,'Python is ?','High level programming language','Low level programming language','Not a language','None of the above',1],
+    [2,'Python uses:','Interpretor','Compiler','Both interpreter and compiler','Uses nothing',1],
+    [3,'When was pyhton invented?','1991','1965','2000','2024',1],
+    [4,'For developing web applications using python which framework is used? ','Numpy','Flask','Matplotlib','Tablue',2],
+    [5,'What key word is used to import packages?','print','import','__name__','Class',2],
+    [6,'How do define lists in python','[]','{}','()','None of the above',1]
     ]
     quiz = Quiz()
     print('Enter the choice:')
