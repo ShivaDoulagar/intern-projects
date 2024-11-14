@@ -10,8 +10,12 @@ class Words:
                 # if no input is given
                 return "Invalid Input! Enter paragraph."
             else:
-                # returning the length of string
-                return len(para)
+                # calculating no of words
+                count =0
+                for i in range(len(para)):
+                    if para[i] != '':
+                        count += 1
+                return f"\n\nThe number of words in Given paragraph is:{count}\n\n"
         # if any exception occurs
         except Exception as e:
             return e
@@ -24,4 +28,4 @@ if __name__ == "__main__":
     # taking input from user
     given_input = input("Enter the paragraph to find the number of words: ")
     # printing the answer
-    print(f"\n\nThe number of words in Given paragraph is:{words.no_of_words(given_input)}\n\n")
+    print(words.no_of_words(given_input))
